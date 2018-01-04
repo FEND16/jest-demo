@@ -2,20 +2,20 @@ const sum = require('../src/sum');
 
 test('returns 0 if nothing passed', () => {
   const result = sum();
-  expect(sum()).toEqual(result);
+  expect(result).toEqual(0);
 });
 
 test('return 1 number if passed', () => {
   const result = sum(4);
-  expect(sum(4)).toEqual(result);
+  expect(result).toEqual(4);
 })
 
 test('add two numbers', () => {
   const result = sum(5,5);
-  expect(sum(5,5)).toEqual(result);
+  expect(result).toEqual(10);
 })
 
 test('adds multiple numbers', () => {
   const result = sum(5,5,6);
-  expect(sum(5,5,6)).toEqual(result);
+  expect(result).toEqual(16);
 })
