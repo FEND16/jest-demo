@@ -1,0 +1,14 @@
+{
+  "name": "jest-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jesper Orb <jesperorb@gmail.com> (https://jesperorb.com/)",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch":"jest --watchAll"
+  },
+  "dependencies": {
+    "jest": "22.0.4"
+  }
+}
